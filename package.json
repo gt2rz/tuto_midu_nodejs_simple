@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,12 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "standard": "^17.1.2",
     "supertest": "^7.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
