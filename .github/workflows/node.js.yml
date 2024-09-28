@@ -14,4 +14,9 @@ jobs:
       steps:
         - name: "Hello world"
           run: echo "Hello world"
+        - name: "Dime la feha"
+          run: date
+        - name: "Listar directorio"
+          run: ls -la
+
     
