@@ -1,0 +1,1 @@
+[![Node.js Package](https://github.com/gt2rz/tuto_midu_nodejs_simple/actions/workflows/node.js.yml/badge.svg)](https://github.com/gt2rz/tuto_midu_nodejs_simple/actions/workflows/node.js.yml)
