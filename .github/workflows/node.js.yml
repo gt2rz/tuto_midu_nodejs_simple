@@ -14,14 +14,14 @@ jobs:
       steps:
         - name: Checkout
           uses: actions/checkout@v4.2.0
-    
-        - name: "Hello world"
-          run: echo "Hello world"
 
-        - name: "Dime la feha"
-          run: date
-          
-        - name: "Listar directorio"
-          run: ls -la
+        - name: Setup Node.js environment
+          uses: actions/setup-node@v4.0.4
+          with:
+            node-version: 20.x
+            cache: "npm"
+        - run: npm ci
+        - run: npm test
+
 
     
